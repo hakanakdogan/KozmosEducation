@@ -1,0 +1,1 @@
+export const ATTEND_PRIVATE_KEY = "1547e16c-afcd-4ecb-88bf-8e6bdf35a3dc";

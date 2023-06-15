@@ -1,0 +1,30 @@
+.wv-container {
+    
+}
+
+.wv-sections {
+    min-height: 73vh;
+    max-height: 73vh;
+    overflow-y: scroll;
+}
+
+.player-wrapper {
+    width: auto;
+    height: auto;
+  }
+  .react-player {
+    padding-top: 56.25%;
+    position: relative;
+  }
+  
+  .react-player > div {
+    position: absolute;
+  }
+
+  .player-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }

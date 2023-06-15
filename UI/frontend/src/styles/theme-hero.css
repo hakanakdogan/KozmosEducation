@@ -1,0 +1,68 @@
+  /*--------------------------------------------------------------
+  # Hero Section
+  --------------------------------------------------------------*/
+  #hero {
+    width: 100%;
+    height: 80vh;
+    background: url("../../public/images/hero-bg.jpg") top center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  #hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #hero .container {
+    padding-top: 72px;
+  }
+  
+  @media (max-width: 992px) {
+    #hero .container {
+      padding-top: 62px;
+    }
+  }
+  
+  #hero h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #hero h2 {
+    color: #eee;
+    margin: 10px 0 0 0;
+    font-size: 24px;
+  }
+  
+  
+  @media (min-width: 1024px) {
+    #hero {
+      background-attachment: fixed;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #hero {
+      height: 100vh;
+    }
+  
+    #hero h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  
+    #hero h2 {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }

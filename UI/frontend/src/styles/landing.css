@@ -1,0 +1,32 @@
+.landing-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.select-typebox {
+    display: flex;
+    flex-direction: column;
+}
+
+.select-typebox .top {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-typename {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-avatar {
+    width: 128px;
+    height: 128px;
+    border-radius: 100% !important;
+    border: 2px solid #5fcf80;
+    margin-bottom: .5rem;
+}

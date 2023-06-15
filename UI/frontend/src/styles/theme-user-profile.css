@@ -1,0 +1,24 @@
+.profile-page .profile-header {
+  box-shadow: 0 0 10px 0 rgba(183, 192, 206, 0.2);
+  border: 1px solid #f2f4f9;
+}
+
+.profile-pic-container {
+  display: flex;
+  align-items: center;
+}
+
+.profile-page .profile-header .cover .cover-body {
+  padding: 10px 20px;
+}
+
+.profile-page .profile-header .cover .cover-body .profile-name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 17px;
+}
+
+.rtl .profile-page .profile-header .cover .cover-body .profile-name {
+  margin-left: 0;
+  margin-right: 17px;
+}

@@ -1,0 +1,71 @@
+.time {
+  font-size: 0.8rem;
+}
+
+.comments-area {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 1rem;
+  background-color: #f5f5f5;
+}
+
+.post-card {
+  margin-bottom: 2.77rem;
+}
+
+.comment-card {
+  width: 95%;
+}
+
+
+.social-wrapper{
+  display: flex;
+  width: 100%;
+}
+.social-wrapper section{
+  width: 100%;
+  background: #fff;
+}
+
+.post{
+  transition: margin-left 0.18s ease;
+  padding: 0;
+}
+
+.post form{
+  margin: 0;
+}
+.content{
+  display: flex;
+  align-items: center;
+}
+
+.details{
+  margin: -3px 0 0 12px;
+}
+.details p{
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.post-textarea{
+  width: 100%;
+  outline: none;
+  border: none;
+}
+
+.emotion-box {
+  display: flex;
+  align-items: center;
+}
+
+.social-img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.social-img {
+  width: 75%;
+  height: auto;
+}

@@ -1,0 +1,20 @@
+import 'react-toastify/dist/ReactToastify.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import "./general.css";
+import "./landing.css";
+import "./theme.css";
+import "./theme-header.css";
+import "./theme-hero.css";
+import "./theme-buttons.css";
+import "./theme-breadcrumb.css";
+import "./theme-sections.css";
+import "./theme-footer.css";
+import "./theme-course-details.css";
+import "./theme-course-card.css";
+import "./theme-course-social-network.css";
+import "./theme-edit-sections.css";
+import "./theme-layout.css";
+import "./watch-video.css";
